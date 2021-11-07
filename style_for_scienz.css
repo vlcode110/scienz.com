@@ -121,17 +121,15 @@ body {
 .cookies{
 width: 50%;
     height: 40%;
-    align-vertical: middle;
-    align-vertical: center;
-    vertical-align: middle;
-    vertical-align: center;
+    
     
     left: 25%;
     right: 25%;
     
     z-index: 1000000000000000000;
     position: fixed;
-    
+    top: 30%;
+    bottom: 30%;
     font-family: 'Mohave', sans-serif;
     color: black;
     font-size: 2.1vh;
