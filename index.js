@@ -579,7 +579,7 @@ function spin(id){
 
 
 
-function chunksSliding(row, limit){
+export function chunksSliding(row, limit){
 
   
     let textForId='text'+row+'.';
