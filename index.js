@@ -1150,4 +1150,4 @@ class TopMenu extends Component {
 reportWebVitals();
 
 
-export default IndexPage
+export default IndexPage, chunksSliding
