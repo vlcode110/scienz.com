@@ -76,7 +76,7 @@ r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o
 <body>
   
 
-<div id='cookies'><button id='cross'></button><p>
+<div class='cookies'><button id='cross'></button><p>
     To provide the best quality content, we use cookies. We do not collect any informatio other than the user activity on the website. 
     You can check out our full privacy policy and Cookies policy under the following links:
     
@@ -105,17 +105,19 @@ changeThem("chunk6");
     
     <script>
     
-    $(this).load({$("#cookies").show();
+    $(this).load(
+        
+        $(".cookies").show();
         
         $('#consent').on('click', ()=>{
             
-            $("#cookies").hide()});
+            $(".cookies").hide()});
         $('#cross').on('click', ()=>{
             
-            $("#cookies").hide()});
+            $(".cookies").hide()});
         
         
-        });
+        );
         
     
     </script>
