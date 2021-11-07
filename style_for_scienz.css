@@ -121,15 +121,20 @@ body {
 #cookies{
 width: 50%;
     height: 40%;
+    align-vertical: middle;
+    align-vertical: center;
     vertical-align: middle;
+    vertical-align: center;
+    
     left: 25%;
     right: 25%;
+    
     z-index: 1000000000000000000;
     position: fixed;
     
     font-family: 'Mohave', sans-serif;
     color: black;
-    font-size: 0.8vh;
+    font-size: 3vh;
     background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
