@@ -116,6 +116,26 @@ body {
       
   }
   
+
+
+#cookies{
+width: 50%;
+    height: 40%;
+    vertical-align: middle;
+    left: 25%;
+    right: 25%;
+    z-index: 1000000000000000000;
+    position: fixed;
+    
+    font-family: 'Mohave', sans-serif;
+    color: black;
+    font-size: 0.8vh;
+    background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+}
   /*------------------------------------------------*/
   #TopMenu{background:#fffffc;
     z-index:index 10;
