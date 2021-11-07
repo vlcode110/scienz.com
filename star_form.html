@@ -103,25 +103,7 @@ changeThem("chunk6");
               changeThem("chunk10");
 '>
     
-    <script>
     
-    $('*').load(
-        
-        $(".cookies").show();
-        
-        $('#consent').on('click', ()=>{
-            
-            $(".cookies").hide()});
-        
-        $('#cross').on('click', ()=>{
-            
-            $(".cookies").hide()});
-        
-        
-        );
-        
-    
-    </script>
 
 <div id='root'></div>
     
@@ -810,6 +792,19 @@ The CNO cycle was first proposed by Hans Bethe. Legend says that Bethe solved th
       }</script>
       <script>
         $(document).ready(() => {
+            
+          
+    
+    $('*').load(
+        $(".cookies").show());
+            $('#consent').on('click', ()=>{
+                $(".cookies").hide()});
+        
+            $('#cross').on('click', ()=>{
+                $(".cookies").hide()});
+        
+    
+    
         
         
           $('.menuSub1').on('click',() => {
