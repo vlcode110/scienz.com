@@ -118,7 +118,7 @@ body {
   
 
 
-#cookies{
+.cookies{
 width: 50%;
     height: 40%;
     align-vertical: middle;
@@ -134,11 +134,17 @@ width: 50%;
     
     font-family: 'Mohave', sans-serif;
     color: black;
-    font-size: 3vh;
+    font-size: 2.1vh;
+    padding: 5vw;
+    
     background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-    
+    .a cookies{
+    color: black;
+        underline: solid;
+        
+    }   
 
 }
   /*------------------------------------------------*/
