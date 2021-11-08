@@ -155,14 +155,15 @@ width: 50%;
     color: black;
     font-size: 2.1vh;
     padding: 5vw;
+    display: none;
     
     background-color: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-    .a cookies{
+    a .cookies{
     color: black;
         underline: solid;
-        display: none;
+        
         
     }   
 
