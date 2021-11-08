@@ -41,7 +41,18 @@ body {
       left: 40px;
       top:70px; 
       margin:auto;}
-  
+#holder{
+    width: 66%;
+    right: 16%;
+    left: 16%;
+    height: 80%;
+    padding: 4vh;
+    color: black;
+    background-color: white;
+    text-alight: center;
+    
+    
+}
   #main {background: #FFFFFF; 
     
     width: 100%;
