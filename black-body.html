@@ -108,7 +108,6 @@ changeThem("chunk6");
             
             <input type="text" class="topnav" placeholder="Search.." />
         </div>-->
-        <script src="https://cdn.withpersona.com/dist/persona-vX.Y.Z.js"></script>
         
         
         
@@ -118,30 +117,6 @@ changeThem("chunk6");
         
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        <div id='login1'><button>click me</button></div>
-
-<script>
-  function authorize(){const client = new Persona.Client({
-    templateId: "itmpl_Ygs16MKTkA6obnF8C3Rb17dm",
-    environment: "sandbox",
-    onReady: () => client.open(),
-    onComplete: ({ inquiryId, status, fields }) => {
-      console.log(`Sending finished inquiry ${inquiryId} to backend`);
-    },
-    onCancel: ({ inquiryId, sessionToken }) => console.log('onCancel'),
-    onError: (error) => console.log(error),
-  });};
-    $('#login1').onClick({authorize});
-</script>
-         
         
         
         
