@@ -162,6 +162,7 @@ width: 50%;
     .a cookies{
     color: black;
         underline: solid;
+        display: none;
         
     }   
 
