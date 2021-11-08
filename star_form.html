@@ -795,8 +795,9 @@ The CNO cycle was first proposed by Hans Bethe. Legend says that Bethe solved th
             
           
     
-    $('*').load(
-        $(".cookies").show());
+    $(window).load(function(){
+        $(".cookies").show().delay(800)});
+                   
             $('#consent').on('click', ()=>{
                 $(".cookies").hide()});
         
