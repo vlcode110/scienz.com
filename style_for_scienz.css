@@ -53,6 +53,12 @@ body {
     
     
 }
+
+
+.links_privacy{
+color: black;
+underline: solid;
+font: inherit;}
   #main {background: #FFFFFF; 
     
     width: 100%;
